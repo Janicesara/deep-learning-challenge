@@ -19,4 +19,7 @@ ASK_AMT
 
 **2. Compiling, Training and Evaluating the Model**
 
-In the step 2 for compiling training and evaluating the model , the first model used 80 and 30 neuron splits with having 2 hidden layer and 1 activation layer . The activation layer  was on 'relu' with 'sigmoid' on the output layer . The results were 73% which is lower than the target set i.e 75%. 
+•In the step 2 for compiling training and evaluating the model , the first model used 80 and 30 neuron splits with having 2 hidden layer and 1 activation layer . The activation layer  was on 'relu' with 'sigmoid' on the output layer . The results were 73% which is lower than the target set i.e 75%. 
+
+ **Optimizing the model**
+ The model was optimized with the help of adding a new layer with neuron = 21 other changes that were applied were that instaed of removing the name column, it was used as afeature and binned together. The classification_type was also kept as a feature. This resulted in 78% accuracy. which was more than the set target. 
